@@ -1,0 +1,12 @@
+<p id="notice"><%= notice %></p>
+<div class="row">
+  <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+    <p>
+      <strong>Name:</strong>
+      <%= @store.name %>
+    </p>
+
+    <%= link_to 'Edit', edit_store_path(@store) %> |
+    <%= link_to 'Back', stores_path %>
+  </div>
+</div>
